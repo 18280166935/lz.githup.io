@@ -1,0 +1,61 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #666;
+  }
+  .pimg1, .pimg2, .pimg3{
+    position: relative;;
+  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .pimg1{
+    min-height: 100%;
+    background-image: url("https://pic1.zhimg.com/v2-0ce119ddf3a9fbc0616b8876dbde0970_r.jpg?source=1940ef5c");
+  }
+  
+  .pimg2{
+    min-height: 400px;
+    background-image: url("https://ts1.cn.mm.bing.net/th/id/R-C.22819c26fc1e3f8387cf6d44808cb527?rik=bU6o9Z1V0g%2bujw&riu=http%3a%2f%2fup.deskcity.org%2fpic_source%2f22%2f81%2f9c%2f22819c26fc1e3f8387cf6d44808cb527.jpg&ehk=7WctTjvVG39wN%2ft0VkcmJ0RT3pLPWTFBVCHeWy3UX%2bw%3d&risl=&pid=ImgRaw&r=0");
+  }
+  .pimg3{
+    min-height: 400px;
+    background-image: url("https://pic.3gbizhi.com/2015/0307/20150307052223656.jpg");
+  }
+  .section{
+    text-align: center;
+    padding: 50px 80px;
+  }
+  
+  .section-dark{
+    background-color:#111;
+    color: #FFF;
+  }
+  .section-light{
+    background-color: #FFF;
+    color: #111;
+  }
+  .ptext{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+  .ptext .border{
+    color: black;
+    padding: 20px;
+    font-weight: 900;
+  }
+  .ptext .border .trans{
+    background-color: transparent;
+  }
+ 
